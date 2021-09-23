@@ -1,0 +1,13 @@
+spring:
+  swagger:
+    title: Hustle Everyday
+    description: Hustle Everyday
+    terms-of-service-url: http://china.nba.com
+    contact-name: zbhou
+    contact-email: 1325676813@qq.com
+    version: 1.0
+    enable: true
+    base-package: com.rookie.hustle
+
+http_server_url:
+  prettyy: http://prettyy-dev.com
