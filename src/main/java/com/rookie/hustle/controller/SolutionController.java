@@ -1,5 +1,7 @@
 package com.rookie.hustle.controller;
 
+import com.rookie.hustle.service.SolutionService;
+
 /**
  * @Description
  * @Author houzhongbo
@@ -8,4 +10,9 @@ package com.rookie.hustle.controller;
  **/
 public class SolutionController {
 
+    public void reflect() throws ClassNotFoundException, InstantiationException, IllegalAccessException {
+        Class<?> aClass = Class.forName("com.rookie.hustle.service.SolutionService");
+        SolutionService solutionService = (SolutionService) aClass.newInstance();
+
+    }
 }

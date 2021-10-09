@@ -1,6 +1,5 @@
-package com.rookie.hustle;
+package com.rookie.hustle.service;
 
-import com.alibaba.fastjson.JSON;
 import org.junit.jupiter.api.Test;
 
 import java.util.HashSet;
@@ -12,7 +11,7 @@ import java.util.Set;
  * @Date 2021/8/17 11:19 下午
  * @Version 1.0
  **/
-public class Solution {
+public class SolutionService {
     class ListNode {
         int val;
         ListNode next;
