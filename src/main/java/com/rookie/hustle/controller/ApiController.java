@@ -19,6 +19,6 @@ public class ApiController {
     @RequestMapping(value = "/leetcode")
     @ResponseBody
     public String leetCode() {
-        return "我爱学习tm的！";
+        return "我爱学习！";
     }
 }
